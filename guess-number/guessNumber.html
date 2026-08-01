@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        .number {
+            font-size: 4rem;
+            margin: 20px auto;
+            width: 20rem;
+            background-color: #fff;
+            color: #222;
+        }
+
+        .message,
+        .score,
+        .highScore {
+            font-size: 2rem;
+        }
+
+        input {
+            width: 100px;
+            font-size: 1rem;
+        }
+
+        button {
+            font-size: 1.5rem;
+            padding: 10px 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Guess My Number</h1>
+    <p class="message">Start Guessing...</p>
+    <div class="number">?</div>
+    <input type="number" class="guess" /> <br>
+    <button class="check">check</button>
+    <button class="again">again</button>
+    <p>score: <span class="score">20</span></p>
+    <p>High score: <span class="highScore">20</span></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
